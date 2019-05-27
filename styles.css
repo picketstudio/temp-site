@@ -1,10 +1,12 @@
 @import url('https://rsms.me/inter/inter.css');
+
 * {
   font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #0d0d0d;
 }
+
 @supports (font-variation-settings: normal) {
   * {
     font-family: 'Inter var', sans-serif;
@@ -49,22 +51,54 @@ footer {
   display: none;
 }
 
+.clients {
+  line-height: 2em;
+  padding-left: 3px;
+  margin-top: 22px;
+}
+
+details[open] summary~* {
+  animation: fadeIn .5s ease-in-out;
+}
+
+details:not([open]) summary~* {
+  animation: fadeOut .5s ease-in-out;
+}
+
 @media (max-width: 500px) {
   header {
     margin: 30px 0 60px;
   }
+
   .main {
     max-width: 90%;
   }
+
   .image {
     display: none;
   }
+
   .image-mobile {
     display: block;
   }
 }
 
 @keyframes fadeIn {
-  from { opacity: 0; }
-  to   { opacity: 1; }
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
 }
