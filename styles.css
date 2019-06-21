@@ -76,6 +76,10 @@ details:not([open]) summary ~ * {
   font-size: 18px;
 }
 
+.fpa-mobile {
+  display: none;
+}
+
 @media (max-width: 500px) {
   p {
     font-size: 18px;
@@ -103,6 +107,19 @@ details:not([open]) summary ~ * {
 
   .client {
     font-size: 16px;
+  }
+
+  .fpa {
+    display: none;
+  }
+
+  .fpa-mobile {
+    display: inline;
+    line-height: initial;
+    padding: 10px 0px;
+  }
+  .fpa-mobile:after {
+    content: "Financial Planning Assc. of Australia";
   }
 }
 
