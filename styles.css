@@ -107,6 +107,7 @@ details:not([open]) summary ~ * {
 
   .client {
     font-size: 16px;
+    margin-top: 0px;
   }
 
   .fpa {
