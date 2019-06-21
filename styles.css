@@ -1,7 +1,7 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url("https://rsms.me/inter/inter.css");
 
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #0d0d0d;
@@ -9,7 +9,7 @@
 
 @supports (font-variation-settings: normal) {
   * {
-    font-family: 'Inter var', sans-serif;
+    font-family: "Inter var", sans-serif;
   }
 }
 
@@ -25,7 +25,8 @@ body {
   animation: fadeIn 2s;
 }
 
-section, footer {
+section,
+footer {
   margin-top: 60px;
 }
 
@@ -63,15 +64,23 @@ footer {
   margin-top: 22px;
 }
 
-details[open] summary~* {
-  animation: fadeIn .5s ease-in-out;
+details[open] summary ~ * {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
-details:not([open]) summary~* {
-  animation: fadeOut .5s ease-in-out;
+details:not([open]) summary ~ * {
+  animation: fadeOut 0.5s ease-in-out;
+}
+
+.client {
+  font-size: 18px;
 }
 
 @media (max-width: 500px) {
+  p {
+    font-size: 18px;
+  }
+
   header {
     margin: 30px 0 60px;
   }
@@ -86,6 +95,14 @@ details:not([open]) summary~* {
 
   .image-mobile {
     display: block;
+  }
+
+  summary {
+    font-size: 18px;
+  }
+
+  .client {
+    font-size: 16px;
   }
 }
 
