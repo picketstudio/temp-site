@@ -1,0 +1,9 @@
+[[redirects]]
+  from = "/terms"
+  to = "https://s3-ap-southeast-2.amazonaws.com/assets.picketstudio.com/terms-of-engagement.pdf"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 301
