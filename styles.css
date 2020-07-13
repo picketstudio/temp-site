@@ -1,21 +1,36 @@
 @import url("https://rsms.me/inter/inter.css");
 
+@font-face {
+	font-family: Calibre-Regular;
+	src: url(../calibre-web-regular.woff) format('woff'), url(../calibre-web-regular.woff2) format('woff2');
+	font-style: normal !important;
+	mso-font-alt: 'Arial'
+}
+
+@font-face {
+	font-family: Calibre-Semibold;
+	src: url(../calibre-web-semibold.woff) format('woff'), url(../calibre-web-semibold.woff2) format('woff2');
+	font-style: normal !important;
+	mso-font-alt: 'Arial'
+}
+
 * {
-  font-family: "Inter", sans-serif;
+  font-family: Calibre-Regular, -apple-system, BlinkMacSystemFont, sans-serif, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #0d0d0d;
 }
 
-@supports (font-variation-settings: normal) {
-  * {
-    font-family: "Inter var", sans-serif;
-  }
-}
-
 body {
   display: flex;
   justify-content: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Calibre-Semibold, -apple-system, BlinkMacSystemFont, sans-serif, Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #0d0d0d;
 }
 
 .main {
@@ -31,12 +46,19 @@ footer {
 }
 
 p {
-  line-height: 1.78;
+  line-height: 1.58;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+strong {
+	font-family: Calibre-Semibold, -apple-system, BlinkMacSystemFont, sans-serif, Arial;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #0d0d0d;
 }
 
 header {
@@ -49,7 +71,7 @@ footer {
 
 .heading {
   margin: 0px;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 1.32;
   display: inline-block;
 }
@@ -73,7 +95,7 @@ details:not([open]) summary ~ * {
 }
 
 .client {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .fpa-mobile {
