@@ -1,306 +1,261 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-P6JFXQG');</script>
+	<head>
+		<!-- Google Tag Manager -->
+		<script>
+			(function (w, d, s, l, i) {
+				w[l] = w[l] || [];
+				w[l].push({
+					'gtm.start': new Date().getTime(),
+					event: 'gtm.js'
+				});
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != 'dataLayer' ? '&l=' + l : '';
+				j.async = true;
+				j.src =
+					'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+				f.parentNode.insertBefore(j, f);
+			})(window, document, 'script', 'dataLayer', 'GTM-P6JFXQG');
 
-    <!-- Google Analytics tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=UA-19580871-1"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
+		</script>
 
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-      gtag("config", "UA-19580871-1");
-    </script>
+		<!-- Google Analytics tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-19580871-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {dataLayer.push(arguments);}
+			gtag("js", new Date());
+			gtag("config", "UA-19580871-1");
+		</script>
 
-    <!-- FullStory snippet -->
-    <script>
-      window['_fs_debug'] = false;
-      window['_fs_host'] = 'fullstory.com';
-      window['_fs_script'] = 'edge.fullstory.com/s/fs.js';
-      window['_fs_org'] = 'SXR2Q';
-      window['_fs_namespace'] = 'FS';
-      (function(m,n,e,t,l,o,g,y){
-          if (e in m) {if(m.console && m.console.log) { m.console.log('FullStory namespace conflict. Please set window["_fs_namespace"].');} return;}
-          g=m[e]=function(a,b,s){g.q?g.q.push([a,b,s]):g._api(a,b,s);};g.q=[];
-          o=n.createElement(t);o.async=1;o.crossOrigin='anonymous';o.src='https://'+_fs_script;
-          y=n.getElementsByTagName(t)[0];y.parentNode.insertBefore(o,y);
-          g.identify=function(i,v,s){g(l,{uid:i},s);if(v)g(l,v,s)};g.setUserVars=function(v,s){g(l,v,s)};g.event=function(i,v,s){g('event',{n:i,p:v},s)};
-          g.anonymize=function(){g.identify(!!0)};
-          g.shutdown=function(){g("rec",!1)};g.restart=function(){g("rec",!0)};
-          g.log = function(a,b){g("log",[a,b])};
-          g.consent=function(a){g("consent",!arguments.length||a)};
-          g.identifyAccount=function(i,v){o='account';v=v||{};v.acctId=i;g(o,v)};
-          g.clearUserCookie=function(){};
-          g._w={};y='XMLHttpRequest';g._w[y]=m[y];y='fetch';g._w[y]=m[y];
-          if(m[y])m[y]=function(){return g._w[y].apply(this,arguments)};
-          g._v="1.2.0";
-      })(window,document,window['_fs_namespace'],'script','user');
-    </script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="description" content="A Sydney digital product studio with a small jargon footprint." />
+		<meta name="google-site-verification" content="_hLc_b6qK-Pn0igxXYT8SIQcXzemmbjnFmSC9LCTY2c" />
+		<title>Picket &mdash; Research, design and development</title>
 
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta
-      name="description"
-      content="A Sydney digital product studio with a small jargon footprint."
-    />
-    <meta
-      name="google-site-verification"
-      content="_hLc_b6qK-Pn0igxXYT8SIQcXzemmbjnFmSC9LCTY2c"
-    />
-    <title>Picket &mdash; Research, design and development</title>
+		<link rel="canonical" href="https://picketstudio.com/" />
+		<link rel="stylesheet" href="normalize.css" />
+		<link rel="stylesheet" href="styles.css" />
 
-    <link rel="canonical" href="https://picketstudio.com/" />
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="styles.css" />
+		<!-- Facebook -->
+		<meta property="fb:app_id" content="166198510072385" />
+		<meta property="og:title" content="Picket &mdash; A Sydney digital product studio with a small jargon footprint." />
+		<meta property="og:site_name" content="Picket" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://picketstudio.com/" />
+		<meta property="og:description"
+			content="We design and develop apps, platforms and web software for people as serious about success as we are." />
+		<meta property="og:image" content="assets/mstile-310x310.png" />
+		<meta property="og:image:type" content="image/png" />
+		<meta property="og:image:width" content="310" />
+		<meta property="og:image:height" content="310" />
 
-    <!-- Facebook -->
-    <meta property="fb:app_id" content="166198510072385" />
-    <meta
-      property="og:title"
-      content="Picket &mdash; A Sydney digital product studio with a small jargon footprint."
-    />
-    <meta property="og:site_name" content="Picket" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://picketstudio.com/" />
-    <meta
-      property="og:description"
-      content="We design and develop apps, platforms and web software for people as serious about success as we are."
-    />
-    <meta property="og:image" content="assets/mstile-310x310.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="310" />
-    <meta property="og:image:height" content="310" />
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:site" content="@picketstudio" />
+		<meta name="twitter:title" content="Picket &mdash; A Sydney digital product studio with a small jargon footprint." />
+		<meta name="twitter:description"
+			content="We design and develop apps, platforms and web software for people as serious about success as we are." />
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@picketstudio" />
-    <meta
-      name="twitter:title"
-      content="Picket &mdash; A Sydney digital product studio with a small jargon footprint."
-    />
-    <meta
-      name="twitter:description"
-      content="We design and develop apps, platforms and web software for people as serious about success as we are."
-    />
+		<!-- Images and favicons -->
+		<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
+		<link rel="manifest" href="assets/site.webmanifest">
+		<link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#000000">
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="theme-color" content="#ffffff">
+	</head>
 
-    <!-- Images and favicons -->
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-    <link rel="manifest" href="assets/site.webmanifest">
-    <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#000000">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-  </head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript>
+			<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6JFXQG" height="0" width="0"
+				style="display:none;visibility:hidden"></iframe>
+		</noscript>
+		<!-- End Google Tag Manager (noscript) -->
 
-  <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P6JFXQG" height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    </noscript>
-    <!-- End Google Tag Manager (noscript) -->
+		<div class="main">
+			<!-- Header -->
+			<header>
+				<div class="image">
+					<a href="/" alt="Picket logo" aria-label="Picket logo">
+						<svg width="173px" height="148px">
+							<title>Group</title>
+							<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+								<g id="Picket-logo-copy" transform="translate(-238.000000, -135.000000)" fill="#000000">
+									<g id="Group" transform="translate(238.119300, 135.966700)">
+										<path
+											d="M127.711649,82.6918494 L44.8899536,82.6918494 C23.3995205,82.6918494 5.91534131,65.2434059 5.91534131,43.7968967 C5.91534131,22.3503876 23.3995205,4.90194407 44.8899536,4.90194407 L127.711649,4.90194407 C149.202082,4.90194407 166.68798,22.3503876 166.68798,43.7968967 C166.68798,65.2434059 149.202082,82.6918494 127.711649,82.6918494 M127.711649,0.0394317931 L44.8899536,0.0394317931 C20.7132163,0.0394317931 1.04287028,19.6695739 1.04287028,43.7968967 C1.04287028,67.9242195 20.7132163,87.5543617 44.8899536,87.5543617 L83.8817526,87.5543617 L83.8817526,136.397311 L61.2294887,113.791346 L57.7835259,117.22855 L86.3016607,145.688397 L114.818077,117.22855 L111.373833,113.791346 L88.7542237,136.363008 L88.7542237,87.5543617 L127.711649,87.5543617 C151.888386,87.5543617 171.558732,67.9242195 171.558732,43.7968967 C171.558732,19.6695739 151.888386,0.0394317931 127.711649,0.0394317931"
+											id="Fill-4"></path>
+										<path
+											d="M40.6685563,33.9829731 L34.4220488,33.9829731 L34.4220488,43.867229 L40.6685563,43.867229 C44.1012762,43.867229 45.8655697,41.7941203 45.8655697,38.9489103 C45.8655697,36.0067626 44.1012762,33.9829731 40.6685563,33.9829731 L40.6685563,33.9829731 Z M34.4220488,48.2056214 L34.4220488,59.2463283 L29.4621806,59.2463283 L29.4621806,29.6428801 L40.7644235,29.6428801 C46.8191965,29.6428801 50.7766634,32.8248213 50.7766634,38.9489103 C50.7766634,44.9760615 46.8191965,48.2056214 40.7644235,48.2056214 L34.4220488,48.2056214 Z"
+											id="Fill-5"></path>
+										<path
+											d="M56.0874344,59.2463283 L60.8613694,59.2463283 L60.8613694,37.8545894 L56.0874344,37.8545894 L56.0874344,59.2463283 Z M58.4735599,34.336882 C56.8990876,34.336882 55.5132151,33.0368598 55.5132151,31.3986618 C55.5132151,29.7604638 56.8990876,28.4587421 58.4735599,28.4587421 C60.0497162,28.4587421 61.4339048,29.7604638 61.4339048,31.3986618 C61.4339048,33.0368598 60.0497162,34.336882 58.4735599,34.336882 L58.4735599,34.336882 Z"
+											id="Fill-6"></path>
+										<path
+											d="M74.9653458,36.7477077 C80.0756008,36.7477077 83.3067105,39.6571005 83.9325254,43.9724434 L79.1113697,43.9724434 C78.7270377,42.0328481 77.135291,40.967268 75.0129621,40.967268 C71.783553,40.967268 69.8074743,43.9228417 69.8074743,47.997018 C69.8074743,52.0711943 71.783553,55.0284784 75.0129621,55.0284784 C77.135291,55.0284784 78.7270377,53.9611879 79.1113697,52.023303 L83.9325254,52.023303 C83.3067105,56.3369355 80.0756008,59.2463283 74.9653458,59.2463283 C69.1799588,59.2463283 64.9863186,54.6881085 64.9863186,47.997018 C64.9863186,41.3059275 69.1799588,36.7477077 74.9653458,36.7477077"
+											id="Fill-7"></path>
+										<polygon id="Fill-8"
+											points="95.6094979 49.9499427 93.5905611 52.0146495 93.5905611 59.2463283 88.6690772 59.2463283 88.6690772 27.2746042 93.5905611 27.2746042 93.5905611 46.360129 102.155853 37.4072828 108.453963 37.4072828 99.1526191 46.8511475 108.799422 59.2463283 102.843298 59.2463283">
+										</polygon>
+										<path
+											d="M114.755111,45.5733791 L124.251547,45.5733791 C124.204881,42.9547545 122.739917,40.8201735 119.85832,40.8201735 C117.26005,40.8201735 115.321764,42.4707109 114.755111,45.5733791 L114.755111,45.5733791 Z M128.741438,52.0711943 C128.033122,56.3369355 124.96153,59.2463283 119.904986,59.2463283 C114.045128,59.2463283 109.98356,54.6881085 109.98356,48.0449092 C109.98356,41.5966958 114.09346,36.7477077 119.809988,36.7477077 C125.716511,36.7477077 128.929767,41.0630505 128.929767,47.3675903 L128.929767,49.1121997 L114.613448,49.1121997 C114.755111,52.8938974 116.880059,55.1738625 119.904986,55.1738625 C122.173264,55.1738625 123.874889,54.1561736 124.39321,52.0711943 L128.741438,52.0711943 Z"
+											id="Fill-9"></path>
+										<path
+											d="M134.849561,42.0312107 L131.298043,42.0312107 L131.298043,37.913332 L134.849561,37.913332 L134.849561,32.0111559 L139.926228,32.0111559 L139.926228,37.913332 L145.001105,37.913332 L145.001105,42.0312107 L139.926228,42.0312107 L139.926228,53.4384693 C139.926228,55.2227667 140.939414,56.016954 142.614929,56.016954 C143.629904,56.016954 144.798826,55.6198604 145.507698,55.123056 L145.507698,59.636279 C144.644879,60.1330834 143.275468,60.4304663 141.701988,60.4304663 C137.692209,60.4304663 134.849561,58.3470366 134.849561,53.9825051 L134.849561,42.0312107 Z"
+											id="Fill-10"></path>
+									</g>
+								</g>
+							</g>
+						</svg>
+					</a>
+				</div>
+				<div class="image-mobile">
+					<svg width="157px" height="135px">
+						<title>Group</title>
+						<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+							<g id="Picket-logo-copy" transform="translate(-238.000000, -135.000000)" fill="#000000">
+								<g id="Group" transform="translate(238.119300, 135.966700)">
+									<path
+										d="M115.810738,74.9861442 L40.7068478,74.9861442 C21.2190177,74.9861442 5.36411556,59.1636476 5.36411556,39.7156484 C5.36411556,20.2676491 21.2190177,4.44515254 40.7068478,4.44515254 L115.810738,4.44515254 C135.298568,4.44515254 151.155029,20.2676491 151.155029,39.7156484 C151.155029,59.1636476 135.298568,74.9861442 115.810738,74.9861442 M115.810738,0.0357573103 L40.7068478,0.0357573103 C18.7830389,0.0357573103 0.945689586,17.8366492 0.945689586,39.7156484 C0.945689586,61.5946475 18.7830389,79.3955394 40.7068478,79.3955394 L76.0651653,79.3955394 L76.0651653,123.68702 L55.5237705,103.18761 L52.3989225,106.304515 L78.2595723,132.112309 L104.118664,106.304515 L100.995374,103.18761 L80.4835913,123.655913 L80.4835913,79.3955394 L115.810738,79.3955394 C137.734547,79.3955394 155.571896,61.5946475 155.571896,39.7156484 C155.571896,17.8366492 137.734547,0.0357573103 115.810738,0.0357573103"
+										id="Fill-4"></path>
+									<path
+										d="M36.8788248,30.816243 L31.214403,30.816243 L31.214403,39.7794266 L36.8788248,39.7794266 C39.9916639,39.7794266 41.5915504,37.8995022 41.5915504,35.3194254 C41.5915504,32.651444 39.9916639,30.816243 36.8788248,30.816243 L36.8788248,30.816243 Z M31.214403,43.7135425 L31.214403,53.7254125 L26.7167241,53.7254125 L26.7167241,26.8805849 L36.9657585,26.8805849 C42.4563127,26.8805849 46.0449999,29.7660145 46.0449999,35.3194254 C46.0449999,40.7849317 42.4563127,43.7135425 36.9657585,43.7135425 L31.214403,43.7135425 Z"
+										id="Fill-5"></path>
+									<path
+										d="M50.8608826,53.7254125 L55.1899546,53.7254125 L55.1899546,34.3270796 L50.8608826,34.3270796 L50.8608826,53.7254125 Z M53.0246551,31.1371726 C51.5969012,31.1371726 50.3401723,29.9582939 50.3401723,28.4727527 C50.3401723,26.9872115 51.5969012,25.8067918 53.0246551,25.8067918 C54.453936,25.8067918 55.7091379,26.9872115 55.7091379,28.4727527 C55.7091379,29.9582939 54.453936,31.1371726 53.0246551,31.1371726 L53.0246551,31.1371726 Z"
+										id="Fill-6"></path>
+									<path
+										d="M67.9796409,33.3233435 C72.6136928,33.3233435 75.543709,35.9616223 76.1112068,39.8748365 L71.7393143,39.8748365 C71.3907965,38.115984 69.947378,37.1497008 68.02282,37.1497008 C65.094346,37.1497008 63.3024097,39.8298571 63.3024097,43.524378 C63.3024097,47.2188989 65.094346,49.9006062 68.02282,49.9006062 C69.947378,49.9006062 71.3907965,48.932772 71.7393143,47.1754705 L76.1112068,47.1754705 C75.543709,51.0871337 72.6136928,53.7254125 67.9796409,53.7254125 C62.7333698,53.7254125 58.9305172,49.5919539 58.9305172,43.524378 C58.9305172,37.4568021 62.7333698,33.3233435 67.9796409,33.3233435"
+										id="Fill-7"></path>
+									<polygon id="Fill-8"
+										points="86.7000514 45.2953179 84.8692508 47.1676233 84.8692508 53.7254125 80.4063792 53.7254125 80.4063792 24.7329987 84.8692508 24.7329987 84.8692508 42.0400238 92.6363789 33.9214557 98.3475952 33.9214557 89.9130041 42.4852864 98.660862 53.7254125 93.2597642 53.7254125">
+									</polygon>
+									<path
+										d="M104.061565,41.3265878 L112.673069,41.3265878 C112.630752,38.9519818 111.302301,37.0163134 108.689228,37.0163134 C106.33308,37.0163134 104.575414,38.5130442 104.061565,41.3265878 L104.061565,41.3265878 Z M116.744566,47.2188989 C116.102254,51.0871337 113.316891,53.7254125 108.731545,53.7254125 C103.417743,53.7254125 99.7346551,49.5919539 99.7346551,43.5678065 C99.7346551,37.7204748 103.461571,33.3233435 108.6454,33.3233435 C114.001519,33.3233435 116.915345,37.2365577 116.915345,42.953604 L116.915345,44.5356407 L103.933103,44.5356407 C104.061565,47.9649378 105.988499,50.0324426 108.731545,50.0324426 C110.788452,50.0324426 112.33151,49.1095878 112.801531,47.2188989 L116.744566,47.2188989 Z"
+										id="Fill-9"></path>
+									<path
+										d="M122.283499,38.1144992 L119.062931,38.1144992 L119.062931,34.3803483 L122.283499,34.3803483 L122.283499,29.0281711 L126.887092,29.0281711 L126.887092,34.3803483 L131.489063,34.3803483 L131.489063,38.1144992 L126.887092,38.1144992 L126.887092,48.4587633 C126.887092,50.0767896 127.805863,50.79697 129.325244,50.79697 C130.245638,50.79697 131.305633,50.4368798 131.948448,49.9863705 L131.948448,54.0790253 C131.166032,54.5295345 129.924231,54.7992056 128.497376,54.7992056 C124.861251,54.7992056 122.283499,52.9099219 122.283499,48.9521027 L122.283499,38.1144992 Z"
+										id="Fill-10"></path>
+								</g>
+							</g>
+						</g>
+					</svg>
+				</div>
+			</header>
 
-    <div class="main">
-      <!-- Header -->
-      <header>
-        <div class="image">
-          <a href="/" alt="Picket logo" aria-label="Picket logo">
-            <svg width="125" height="59" xmlns="http://www.w3.org/2000/svg">
-              <g fill-rule="nonzero" fill="none">
-                <path
-                  d="M18.053 35.453c9.158 0 16.331-7.937 16.331-17.553S27.211.5 18.053.5H.5v35.105h17.553v-.152z"
-                  fill="#FCB813"
-                />
-                <path
-                  d="M8.132 18.053v9.92h9.92c4.885 0 8.853-4.426 8.853-9.92H8.132z"
-                  fill="#FBD5D0"
-                />
-                <path
-                  d="M8.132 18.053V8.132h9.92c4.885 0 8.853 4.426 8.853 9.92H8.132z"
-                  fill="#00944A"
-                />
-                <path fill="#E2E2E1" d="M.5.5l7.632 7.632L15.916.5z" />
-                <path fill="#404142" d="M8.132 58.5l7.784-7.632-7.784-7.631z" />
-                <path fill="#929394" d="M.5 50.868L8.132 58.5V43.237z" />
-                <path fill="#6AAADC" d="M8.132 8.132l7.784 9.92-7.784 9.77z" />
-                <path
-                  d="M.5.5v39.684c1.068.305 1.832 1.221 1.832 2.29 0 1.068-.764 1.984-1.832 2.29v6.104l7.632-7.631V8.132L.5.5z"
-                  fill="#FAED3B"
-                />
-                <path
-                  d="M14.084 42.474c0-1.069.763-2.137 1.832-2.29v-4.579l-7.632-7.631v15.263l7.632 7.631v-6.105c-1.069-.305-1.832-1.22-1.832-2.29"
-                  fill="#3A59A1"
-                />
-                <g fill="#000">
-                  <path
-                    d="M122.453 41.253c-1.832 0-2.595-.916-2.595-3.053v-7.937h-1.832l.306-2.29h1.526v-4.578l2.442-.61v5.189h2.137v2.29H122.3v7.63c0 .611.305.917.763.917.305 0 .763-.153 1.221-.611l.153-.153v2.442h-.153c-.61.611-1.373.764-1.831.764M113.905 33.01c-.305-1.526-1.679-3.205-3.816-3.205-2.289 0-3.51 1.832-3.815 3.206h7.631zm-3.663 8.243c-3.663 0-6.41-2.9-6.41-6.869 0-3.816 2.747-6.868 6.41-6.868 3.663 0 6.41 2.9 6.41 6.868v.61h-10.378c.152 2.29 1.831 3.817 3.968 3.817 1.68 0 2.747-.611 3.816-1.832l.153-.153 1.984 1.221-.153.153c-1.831 2.29-3.51 3.053-5.8 3.053zM100.474 40.795l-4.885-5.037v5.037h-2.442V17.747h2.442v14.958l4.427-4.426 2.9-.153-5.648 6.106 6.258 6.563zM85.516 41.253c-3.663 0-6.41-2.9-6.41-6.869 0-3.816 2.747-6.868 6.41-6.868 2.137 0 3.816.916 5.037 2.595l.152.152-1.526 1.374h-.153c-.763-1.069-2.137-1.68-3.51-1.68-2.442 0-3.969 1.832-3.969 4.58 0 2.747 1.68 4.579 3.969 4.579 1.679 0 2.595-.763 3.51-1.832l.153-.152 1.679 1.373-.153.153c-1.526 1.679-2.747 2.595-5.19 2.595M73.916 22.479h2.442v2.747h-2.442V22.48zm0 5.647h2.442v12.669h-2.442V28.126zM64.453 28.432c1.984 0 4.426-.61 4.426-3.969 0-3.358-2.442-3.968-4.426-3.968H62.01v7.937h2.442zm-5.037 12.363V18.053H64.3c3.358 0 7.021 1.679 7.021 6.41 0 4.732-3.663 6.41-7.021 6.41h-2.442v10.074h-2.442v-.152z"
-                  />
-                </g>
-              </g>
-            </svg>
-          </a>
-        </div>
-        <div class="image-mobile">
-          <a href="/" alt="Picket logo" aria-label="Picket logo">
-            <svg width="34" height="58" xmlns="http://www.w3.org/2000/svg">
-              <g fill-rule="nonzero" fill="none">
-                <path
-                  d="M17.553 34.953c9.158 0 16.331-7.937 16.331-17.553S26.711 0 17.553 0H0v35.105h17.553v-.152z"
-                  fill="#FCB813"
-                />
-                <path
-                  d="M7.632 17.553v9.92h9.92c4.885 0 8.853-4.426 8.853-9.92H7.632z"
-                  fill="#FBD5D0"
-                />
-                <path
-                  d="M7.632 17.553V7.632h9.92c4.885 0 8.853 4.426 8.853 9.92H7.632z"
-                  fill="#00944A"
-                />
-                <path fill="#E2E2E1" d="M0 0l7.632 7.632L15.416 0z" />
-                <path fill="#404142" d="M7.632 58l7.784-7.632-7.784-7.631z" />
-                <path fill="#929394" d="M0 50.368L7.632 58V42.737z" />
-                <path fill="#6AAADC" d="M7.632 7.632l7.784 9.92-7.784 9.77z" />
-                <path
-                  d="M0 0v39.684c1.068.305 1.832 1.221 1.832 2.29 0 1.068-.764 1.984-1.832 2.29v6.104l7.632-7.631V7.632L0 0z"
-                  fill="#FAED3B"
-                />
-                <path
-                  d="M13.584 41.974c0-1.069.763-2.137 1.832-2.29v-4.579l-7.632-7.631v15.263l7.632 7.631v-6.105c-1.069-.305-1.832-1.22-1.832-2.29"
-                  fill="#3A59A1"
-                />
-              </g>
-            </svg>
-          </a>
-        </div>
-      </header>
+			<!-- Call out -->
+			<section>
+				<h1 class="heading">
+					A digital product studio with a small jargon footprint.
+				</h1>
+			</section>
 
-      <!-- Call out -->
-      <section>
-        <h1 class="heading">
-          A digital product studio with a small jargon footprint.
-        </h1>
-      </section>
+			<!-- Main content -->
+			<section>
+				<strong>About</strong>
+				<p>
+					We design and develop apps, platforms and web software for people as
+					serious about success as we are. All our projects are based on
+					thorough research, consultation, and collaboration. Our reliable
+					project process reduces risk and gives you firm control over technical
+					complexity.
+				</p>
+			</section>
+			<section>
+				<strong>Team</strong>
+				<p>
+					We’re a group of experienced product researchers, strategists,
+					designers and developers with over two decades of combined knowledge
+					creating digital products and services across a range of industries.
+				</p>
+			</section>
 
-      <!-- Main content -->
-      <section>
-        <strong>About</strong>
-        <p>
-          We design and develop apps, platforms and web software for people as
-          serious about success as we are. All our projects are based on
-          thorough research, consultation, and collaboration. Our reliable
-          project process reduces risk and gives you firm control over technical
-          complexity.
-        </p>
-      </section>
-      <section>
-        <strong>Team</strong>
-        <p>
-          We’re a group of experienced product researchers, strategists,
-          designers and developers with over two decades of combined knowledge
-          creating digital products and services across a range of industries.
-        </p>
-      </section>
+			<!-- Client list -->
+			<section>
+				<strong>Selected Work</strong>
+				<div class="clients">
+					<details>
+						<summary>University of Sydney</summary>
+						<p class="client">
+							A social platform for Aboriginal and Torres Strait Islander kids,
+							and those in regional or lower socio-economic environments, to
+							connect with and support each other on an often lonely journey to
+							tertiary education.
+						</p>
+					</details>
+					<details>
+						<summary>City of Sydney</summary>
+						<p class="client">
+							The Garbage Guru app to help residents recycle better, a
+							benchmarking site to compare the greenness of city properties and
+							a prototype for a paperless council report platform.
+						</p>
+					</details>
+					<details>
+						<summary class="fpa">Financial Planning Association of Australia</summary>
+						<p class="client">
+							An online matching marketplace to help people connect with a
+							financial planner that speaks their language, and a custom API to
+							integrate their back-office member management system with modern,
+							web-based services.
+						</p>
+					</details>
+					<details>
+						<summary class="fpa-mobile"></summary>
+						<p class="client">
+							An online matching marketplace to help people connect with a
+							financial planner that speaks their language, and a custom API to
+							integrate their back-office member management system with modern,
+							web-based services.
+						</p>
+					</details>
+					<details>
+						<summary>Showcast</summary>
+						<p class="client">
+							Compressing the annual distribution of hundreds of copies of
+							Australia’s “casting bible” into a slick iPad app and powerful
+							online casting management platform.
+						</p>
+					</details>
+					<details>
+						<summary>Certus3</summary>
+						<p class="client">
+							A suite of innovative project management analytics tools using AI
+							to health-check multi-million dollar IT infrastructure projects.
+						</p>
+					</details>
+					<details>
+						<summary>Core Practice</summary>
+						<p class="client">
+							Prototyping and taking to market an easy to use cloud-based dental
+							practice management platform
+						</p>
+					</details>
+				</div>
+			</section>
 
-      <!-- Client list -->
-      <section>
-        <strong>Selected Work</strong>
-        <div class="clients">
-          <details>
-            <summary>University of Sydney</summary>
-            <p class="client">
-              A social platform for Aboriginal and Torres Strait Islander kids,
-              and those in regional or lower socio-economic environments, to
-              connect with and support each other on an often lonely journey to
-              tertiary education.
-            </p>
-          </details>
-          <details>
-            <summary>City of Sydney</summary>
-            <p class="client">
-              The Garbage Guru app to help residents recycle better, a
-              benchmarking site to compare the greenness of city properties and
-              a prototype for a paperless council report platform.
-            </p>
-          </details>
-          <details>
-            <summary class="fpa"
-              >Financial Planning Association of Australia</summary
-            >
-            <p class="client">
-              An online matching marketplace to help people connect with a
-              financial planner that speaks their language, and a custom API to
-              integrate their back-office member management system with modern,
-              web-based services.
-            </p>
-          </details>
-          <details>
-            <summary class="fpa-mobile"></summary>
-            <p class="client">
-              An online matching marketplace to help people connect with a
-              financial planner that speaks their language, and a custom API to
-              integrate their back-office member management system with modern,
-              web-based services.
-            </p>
-          </details>
-          <details>
-            <summary>Showcast</summary>
-            <p class="client">
-              Compressing the annual distribution of hundreds of copies of
-              Australia’s “casting bible” into a slick iPad app and powerful
-              online casting management platform.
-            </p>
-          </details>
-          <details>
-            <summary>Certus3</summary>
-            <p class="client">
-              A suite of innovative project management analytics tools using AI
-              to health-check multi-million dollar IT infrastructure projects.
-            </p>
-          </details>
-          <details>
-            <summary>Core Practice</summary>
-            <p class="client">
-              Prototyping and taking to market an easy to use cloud-based dental
-              practice management platform
-            </p>
-          </details>
-        </div>
-      </section>
-
-      <!-- Footer -->
-      <footer>
-        <strong>Contact</strong>
-        <p>
-          5/171 William Street<br />
-          Darlinghurst NSW 2010
-        </p>
-        <p>
-          <a href="tel:+61 2 8399 3336" aria-label="telephone:+61283993336"
-            >+61 2 8399 3336</a
-          ><br />
-          <a
-            href="mailto:hello@picketstudio.com"
-            aria-label="email:hello@picketstudio.com"
-            >hello@picketstudio.com</a
-          >
-        </p>
-        <br />
-        <p style="color: #757575;">
-          &copy; 2020 Picket Pty Ltd.
-        </p>
-      </footer>
-    </div>
-  </body>
+			<!-- Footer -->
+			<footer>
+				<strong>Contact</strong>
+				<p>
+					5/171 William Street<br />
+					Darlinghurst NSW 2010
+				</p>
+				<p>
+					<a href="tel:+61 2 8399 3336" aria-label="telephone:+61283993336">+61 2 8399 3336</a><br />
+					<a href="mailto:hello@picketstudio.com" aria-label="email:hello@picketstudio.com">hello@picketstudio.com</a>
+				</p>
+				<br />
+				<p style="color: #757575;">
+					&copy; 2020 Picket Pty Ltd.
+				</p>
+			</footer>
+		</div>
+	</body>
 </html>
