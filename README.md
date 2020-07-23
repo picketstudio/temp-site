@@ -12,7 +12,7 @@ Netlify requires a `netlify.toml` file in the project root for configuring vario
 
 ## Contributing
 
-To work with this site, you can simply clone the repository into a local folder on your computer. You shouldn't need any external services other than `git` and a package manager like `npm` or `yarn` as the rest is all contained herein.
+To work with this site, you can simply clone the repository into a local folder on your computer. You shouldn't need any external services other than `git` and `npm` for package management.
 
 ~~~ sh
 $ git clone https://github.com/picketstudio/site.git
@@ -21,11 +21,13 @@ $ cd site
 
 ## Installation
 
-This site uses an `npm`-esque set-up with `package.json` specifying project details, dependencies and scripts. To get started with development, you'll need to run the following commands (for `npm`, or equivalent ones for your preferred package management tool):
+This site uses a `npm` with a `package.json` specifying project details, dependencies and scripts. To get started with development, you'll need to run the following command:
 
 ~~~ sh
 $ npm install
 ~~~
+
+This will download and install all required dependencies.
 
 ## Local Development
 
