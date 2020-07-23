@@ -2,13 +2,13 @@
 
 [ http://picketstudio.com ](http://picketstudio.com)
 
-This is/was intended as a placeholder site deployed when we set-up Picket 2.0, to cover off the basics of what we were offering and mention a few clients. It has subsequently been [updated](https://github.com/picketstudio/site/commit/b7ad83f967b6e5edc968677568e56685568c6e7f) with the new logo but will probably be replace in its entirety by a [new site](https://github.com/picketstudio/home) in due course.
+This is/was intended as a placeholder site deployed when we set-up Picket 2.0, to cover off the basics of what we were offering and mention a few clients. It has subsequently been [updated](https://github.com/picketstudio/site/commit/b7ad83f967b6e5edc968677568e56685568c6e7f) with the new logo but will probably be replaced in its entirety by a [new site](https://github.com/picketstudio/home) in due course.
 
 ## Infrastructure
 
 The site is static and deployed to Netlify via their direct integration with Github. Builds/deployments happen automatically whenever anything is pushed to the `production` branch on Github (configuration is [here](https://app.netlify.com/sites/picketstudio/settings/deploys)).
 
-Netlify requires a `netlify.toml` file in the project root for configuring various aspects of the build and/or other server-side behaviour, and more can be learned about that [here](https://docs.netlify.com/configure-builds/file-based-configuration/).
+Netlify requires a `netlify.toml` file in the project root for configuring various aspects of the build and/or other server-side behaviour (including for local development). More can be learned about that [here](https://docs.netlify.com/configure-builds/file-based-configuration/).
 
 ## Contributing
 
@@ -21,7 +21,7 @@ $ cd site
 
 ## Installation
 
-This site uses a `npm` with a `package.json` specifying project details, dependencies and scripts. To get started with development, you'll need to run the following command:
+This site uses `npm` with a `package.json` specifying project details, dependencies and scripts. To get started with development, you'll need to run the following command:
 
 ~~~ sh
 $ npm install
