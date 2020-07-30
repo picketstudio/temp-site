@@ -52,6 +52,12 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+  border-bottom: 1px solid black;
+  padding-bottom: 1px;
+  transition: padding-bottom .2s ease-in;
+}
+a:hover {
+  padding-bottom: 3px;
 }
 
 strong {
@@ -64,7 +70,10 @@ strong {
 header {
   margin: 60px 0 90px;
 }
-
+header a {
+  padding: 0;
+  border: none;
+}
 footer {
   margin-bottom: 30px;
 }
