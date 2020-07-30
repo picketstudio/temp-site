@@ -96,6 +96,20 @@ footer {
   margin-top: 22px;
 }
 
+details {
+  margin: 10px 0;
+}
+
+details > summary {
+  text-indent: -21px;
+  margin: 0 0 0 20px;
+  line-height: 31px;
+}
+
+details > p {
+  margin: 0 0 0 23px;
+}
+
 details[open] summary ~ * {
   animation: fadeIn 0.5s ease-in-out;
 }
@@ -123,6 +137,10 @@ details:not([open]) summary ~ * {
 
   header {
     margin: 30px 0 60px;
+  }
+
+  details > p {
+    margin: 0 0 0 21px;
   }
 
   .main {
