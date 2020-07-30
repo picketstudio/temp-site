@@ -54,10 +54,10 @@ a {
   color: inherit;
   border-bottom: 1px solid black;
   padding-bottom: 1px;
-  transition: padding-bottom .2s ease-in;
+  transition: border-bottom .2s ease-in;
 }
 a:hover {
-  padding-bottom: 3px;
+  border-bottom: 1px solid #999;
 }
 
 strong {
