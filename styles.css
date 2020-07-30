@@ -1,15 +1,13 @@
-@import url("https://rsms.me/inter/inter.css");
-
 @font-face {
   font-family: Calibre-Regular;
-  src: url(../calibre-web-regular.woff) format('woff'), url(../calibre-web-regular.woff2) format('woff2');
+  src: url(./assets/fonts/calibre-web-regular.woff) format('woff'), url(./assets/fonts/calibre-web-regular.woff2) format('woff2');
   font-style: normal !important;
   mso-font-alt: 'Arial'
 }
 
 @font-face {
   font-family: Calibre-Semibold;
-  src: url(../calibre-web-semibold.woff) format('woff'), url(../calibre-web-semibold.woff2) format('woff2');
+  src: url(./assets/fonts/calibre-web-semibold.woff) format('woff'), url(./assets/fonts/calibre-web-semibold.woff2) format('woff2');
   font-style: normal !important;
   mso-font-alt: 'Arial'
 }
