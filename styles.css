@@ -71,7 +71,8 @@ strong {
 header {
   margin: 60px 0 90px;
 }
-header a {
+header a,
+header a:hover {
   padding: 0;
   border: none;
 }
