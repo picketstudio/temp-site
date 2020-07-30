@@ -1,17 +1,17 @@
 @import url("https://rsms.me/inter/inter.css");
 
 @font-face {
-	font-family: Calibre-Regular;
-	src: url(../calibre-web-regular.woff) format('woff'), url(../calibre-web-regular.woff2) format('woff2');
-	font-style: normal !important;
-	mso-font-alt: 'Arial'
+  font-family: Calibre-Regular;
+  src: url(../calibre-web-regular.woff) format('woff'), url(../calibre-web-regular.woff2) format('woff2');
+  font-style: normal !important;
+  mso-font-alt: 'Arial'
 }
 
 @font-face {
-	font-family: Calibre-Semibold;
-	src: url(../calibre-web-semibold.woff) format('woff'), url(../calibre-web-semibold.woff2) format('woff2');
-	font-style: normal !important;
-	mso-font-alt: 'Arial'
+  font-family: Calibre-Semibold;
+  src: url(../calibre-web-semibold.woff) format('woff'), url(../calibre-web-semibold.woff2) format('woff2');
+  font-style: normal !important;
+  mso-font-alt: 'Arial'
 }
 
 * {
@@ -27,7 +27,7 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: Calibre-Semibold, -apple-system, BlinkMacSystemFont, sans-serif, Arial;
+  font-family: Calibre-Semibold, -apple-system, BlinkMacSystemFont, sans-serif, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #0d0d0d;
@@ -61,7 +61,7 @@ a:hover {
 }
 
 strong {
-	font-family: Calibre-Semibold, -apple-system, BlinkMacSystemFont, sans-serif, Arial;
+  font-family: Calibre-Semibold, -apple-system, BlinkMacSystemFont, sans-serif, Arial;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #0d0d0d;
